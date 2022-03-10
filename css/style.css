@@ -1,0 +1,30 @@
+body,
+.bg-dark,
+.form-control {
+  background-color: #1b1b1b !important;
+}
+
+.form-control {
+  max-width: 130px;
+  line-height: 25px;
+  border-color: #fff;
+  border-radius: 0;
+  height: 28px;
+}
+
+.form-control:focus {
+  border-color: #fff;
+  outline: none;
+  box-shadow: 0 0 0 0;
+}
+
+.navbar img {
+  height: 24px;
+}
+
+.navbar .navbar-toggler {
+  border: 0;
+  box-shadow: 0 0 0 0;
+  padding-left: 0;
+  padding-right: 0;
+}
