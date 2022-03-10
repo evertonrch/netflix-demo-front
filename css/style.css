@@ -39,7 +39,7 @@ body,
   max-width: 250px;
   margin: 0.3em auto;
   position: absolute;
-  top: 60px;
+  top: 50px;
   left: -250px;
   height: calc(100vh - 60px);
   overflow-y: auto;
@@ -64,4 +64,14 @@ body,
 
 .navbar ul img {
   height: 39px;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
 }
