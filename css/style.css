@@ -94,3 +94,11 @@ body,
   border: none;
   box-shadow: 0 0 0 0;
 }
+
+.list-titles h2 {
+  color: #999898;
+}
+
+.list-titles img {
+  min-width: 160px;
+}
