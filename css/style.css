@@ -95,7 +95,8 @@ body,
   box-shadow: 0 0 0 0;
 }
 
-.list-titles h2 {
+.list-titles h2,
+footer {
   color: #999898;
 }
 
