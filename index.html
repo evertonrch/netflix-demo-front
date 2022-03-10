@@ -14,17 +14,22 @@
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
-      <button type="button" class="navbar-toggler">
+      <button type="button" class="navbar-toggler d-lg-none">
         <img src="assets/img/hamburger.gif" alt="Menu" />
       </button>
       <a href="#" class="navbar-brand flex-grow-1">
-        <img
-          src="assets/img/logo.png"
-          alt="Netflix"
-          height="30"
-          class="my-1 mx-2"
-        />
+        <img src="assets/img/logo.png" alt="Netflix" class="my-1 mx-2" />
       </a>
+
+      <ul class="nav d-none d-lg-flex text-white">
+        <li class="nav-item">
+          <a href="#" class="nav-link text-reset active">Navegar</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-reset">Infantil</a>
+        </li>
+      </ul>
+
       <form action="">
         <input
           type="search"
@@ -32,7 +37,21 @@
           placeholder="Looking for something..."
         />
       </form>
-      <ul class="list-unstyled fw-bold">
+
+      <div class="d-none d-lg-flex ms-3 text-white align-items-center">
+        <div class="flex-shrink-0">
+          <img
+            src="assets/img/default-user-image.png"
+            alt="Avatar"
+            class="rounded-circle"
+          />
+        </div>
+        <div class="flex-grow-1 ms-2">
+          <span>User</span>
+        </div>
+      </div>
+
+      <ul class="list-unstyled fw-bold sidebar">
         <li class="d-flex align-items-center">
           <div class="flex-shrink-0">
             <img
@@ -91,6 +110,13 @@
                 <span class="me-2">12</span>
                 <span>187 min</span>
               </small>
+              <p class="d-none d-lg-block">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Possimus, explicabo suscipit culpa deleniti iure illum eos
+                aliquid, quam nesciunt doloremque sed atque explicabo cum eum
+                voluptates ipsa eveniet commodi error unde praesentium soluta
+                aut! Aperiam, delectus dolorum.
+              </p>
               <button class="btn btn-primary fw-bold">Assistir</button>
             </div>
           </div>

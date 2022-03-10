@@ -34,7 +34,7 @@ body,
   padding-right: 0;
 }
 
-.navbar ul {
+.navbar ul.sidebar {
   color: #999898;
   max-width: 250px;
   margin: 0.3em auto;
@@ -116,5 +116,40 @@ footer {
 @media (min-width: 768px) {
   .list-titles img {
     min-width: 230px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar.bg-dark {
+    background-color: transparent !important;
+    background-image: url("../assets/img/header_gradient.png");
+    background-repeat: repeat-x;
+  }
+
+  .full-banner {
+    min-height: 50vh;
+  }
+
+  .full-banner p {
+    max-width: 50vw;
+    color: #999898;
+    text-align: justify;
+  }
+
+  .navbar ul.nav {
+    flex-grow: 1 !important;
+  }
+
+  .navbar-brand.flex-grow-1 {
+    flex-grow: initial !important;
+  }
+
+  .navbar ul.nav .active {
+    color: #e30f19 !important;
+    font-weight: bold;
+  }
+
+  .navbar img {
+    height: 34px;
   }
 }
