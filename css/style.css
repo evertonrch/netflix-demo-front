@@ -18,6 +18,10 @@ body,
   box-shadow: 0 0 0 0;
 }
 
+.navbar {
+  position: relative;
+}
+
 .navbar img {
   height: 24px;
 }
@@ -27,4 +31,28 @@ body,
   box-shadow: 0 0 0 0;
   padding-left: 0;
   padding-right: 0;
+}
+
+.navbar ul {
+  color: #999898;
+  max-width: 250px;
+  margin: 0.3em auto;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.navbar ul li {
+  padding: 0.2em 1em;
+}
+
+.navbar ul li.divider {
+  border-bottom: 1px solid #999898;
+  margin: 0.5em auto;
+}
+
+.navbar ul img {
+  height: 39px;
 }
